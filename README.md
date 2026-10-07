@@ -4,7 +4,7 @@ ThinSplash is (to be) a home broadcast software suite consisting of the followin
 
 ## Schedule Builder
 
-For creating programming blocks, with granularoty of minutes, hours, days, weeks, months, seasons, years, etc.
+For creating programming blocks, with granularity of minutes, hours, days, weeks, months, seasons, years, etc.
 
 ## DVTedit
 
