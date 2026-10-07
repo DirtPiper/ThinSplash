@@ -20,9 +20,11 @@ For actually airing the final broadcast program based on the guides created by G
 
 # Design guidelines:
 
-Implemented in Java (5? 8?)
-DVTedit transcodes all ingested video into h.265 mp4 files at 640x480 @ 60 FPS - maybe allow for HDTV later on
-Hub and spoke topology - one central server hosts the entirety of footage and generates TV guides for a given channel, ThinSplash clients running ThinCast will only need to store at most two days' worth of footage at a time and will download needed footage from the server daily - download tomorrow's lineup, play today's, delete tomorrow's.
+- Implemented in Java (5? 8?)
+
+- DVTedit transcodes all ingested video into h.265 mp4 files at 640x480 @ 60 FPS - maybe allow for HDTV later on
+
+- Hub and spoke topology - one central server hosts the entirety of footage and generates TV guides for a given channel, ThinSplash clients running ThinCast will only need to store at most two days' worth of footage at a time and will download needed footage from the server daily - download tomorrow's lineup, play today's, delete tomorrow's.
 
 # Why?
 
